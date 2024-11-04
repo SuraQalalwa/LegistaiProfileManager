@@ -18,7 +18,6 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 
@@ -43,12 +42,6 @@ The application is client-side rendered with data fetching through the useEffect
 - **Database:** Azure SQL Database
 - **CORS:** Flask-CORS for handling cross-origin requests
 
-## Prerequisites
-
-- [Node.js and npm](https://nodejs.org/): Make sure you have Node.js and npm installed.
-- [Python](https://www.python.org/): Ensure you have Python installed (preferably version 3.7 or higher).
-- [Backend API](): Ensure your backend API is running locally or hosted remotely. The application expects the backend API to be available at http://localhost:5000
-
 ## Getting Started
 
 1. **Clone the repository:**
@@ -58,7 +51,7 @@ The application is client-side rendered with data fetching through the useEffect
 
 2. **Navigate to the project directory:**
    ```sh
-   cd LegistaiProfile-Manager
+   cd LegistaiProfileManager
    ```
 
 3. **Set up the backend:**
