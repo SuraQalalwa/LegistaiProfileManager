@@ -31,7 +31,7 @@ export default function RegisterPage() {
     <div className="flex items-center justify-center w-[1440px] h-full bg-gray-100">
       <form 
         onSubmit={handleSubmit} 
-        className="bg-white p-6 rounded-lg  w-[750px] w-full"
+        className="bg-white p-6 rounded-lg  w-[650px] w-full"
       >
         <h2 className="text-[20px] text-center mb-4">
           Start New Form with Legistai
