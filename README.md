@@ -55,16 +55,27 @@ The application is client-side rendered with data fetching through the useEffect
    ```
 
 3. **Set up the backend:**
-   - **Activate the virtual environment:**
+   - **Navigate to the backend directory:**
+      ```sh
+      cd backend
+      ```
+   - **Create and Activate the virtual environment:**
      ```sh
-     .\venv\Scripts\activate
-     ```
+      python -m venv venv
+      ```
+   - **Activate on Windows:**
+      ```sh
+      .\venv\Scripts\activate
+      ```
+   - **Activate on MacOS/Linux**
+      ```sh
+      source venv/bin/activate
+      ```
    - **Install backend dependencies:**
      ```sh
-     cd backend
+     pip install -r requirements.txt
      pip install
      ```
-
 4. **Set up the frontend:**
    - **Navigate to the frontend directory:**
      ```sh
